@@ -12,6 +12,14 @@
     "build:dev": "webpack --mode=development --config webpack.config.dev.js"
   },
   "dependencies": {
+    "antd": "^4.5.2",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-router-dom": "^5.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.9.0",
+    "@babel/core": "^7.9.0",
     "@babel/plugin-proposal-class-properties": "^7.14.5",
     "@babel/plugin-proposal-object-rest-spread": "^7.14.7",
     "@babel/plugin-proposal-optional-chaining": "^7.14.5",
@@ -22,16 +30,6 @@
     "@babel/preset-env": "^7.15.0",
     "@babel/preset-react": "^7.14.5",
     "@babel/preset-typescript": "^7.15.0",
-    "antd": "^4.5.2",
-    "eslint": "^7.32.0",
-    "eslint-loader": "^4.0.2",
-    "react": "^16.14.0",
-    "react-dom": "^16.14.0",
-    "react-router-dom": "^5.2.0"
-  },
-  "devDependencies": {
-    "@babel/cli": "^7.9.0",
-    "@babel/core": "^7.9.0",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.3.3",
     "babel-loader": "^8.0.5",
     "babel-plugin-dynamic-import-webpack": "^1.1.0",
@@ -41,6 +39,8 @@
     "copy-webpack-plugin": "^6.4.1",
     "css-loader": "^5.2.7",
     "dotenv-webpack": "^5.0.0",
+    "eslint": "^7.32.0",
+    "eslint-loader": "^4.0.2",
     "html-webpack-plugin": "^4.5.2",
     "less": "^4.1.1",
     "less-loader": "^7.3.0",
